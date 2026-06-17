@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supermercado 🛒</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Supermercado</h1>
+
+        <section id="productos" class="productos-section">
+            <h2>Productos</h2>
+            <div id="productosLista" class="productos-grid"></div>
+            
+        </section>
+
+        <aside id="carrito" class="carrito-section">
+            <h2>Carrito</h2>
+            <div id="carritoLista" class="carrito-items"></div>
+
+            <div class="totales">
+                <p>Total cantidad: <span id="totalCantidad">0</span></p>
+                <p>Total precio: $<span id="totalPrecio">0.00</span></p>
+            </div>
+
+            <button id="limpiarCarrito" type="button">Limpiar carrito</button>
+        </aside>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
